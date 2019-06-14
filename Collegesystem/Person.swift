@@ -11,9 +11,23 @@ enum Gender {
     case Male, Female, Other
 }
 
-class Person
-{
-    //private id: Int
+class Person : Display{
+    
+    func display() {
+    
+    }
+    
+    
+/*private var _id:Int
+ var id : Int
+ {
+ get{
+ return self.id
+ } set{
+ self.id = newvalue
+ }
+ }*/
+
     var id : Int?
    
     var firstname : String?
@@ -27,6 +41,7 @@ class Person
     var gender : Gender
     var email : String?
     var birthdate : Date?
+    var address : String?
     
     init() {
         print("init() of Person")
@@ -37,4 +52,9 @@ class Person
         self.email = String()
         self.birthdate = Date()
     }
+    
+    func display(){
+        //print(dummy)
+    }
 }
+

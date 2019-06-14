@@ -10,6 +10,10 @@
 		9BA4D41B22B1B165001749B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA4D41A22B1B165001749B6 /* main.swift */; };
 		9BA4D42222B1B25F001749B6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA4D42122B1B25F001749B6 /* Person.swift */; };
 		9BA4D42422B1B59F001749B6 /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA4D42322B1B59F001749B6 /* student.swift */; };
+		9BBF717F22B307860009201C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF717E22B307860009201C /* Address.swift */; };
+		9BBF718222B307A30009201C /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF718122B307A30009201C /* Display.swift */; };
+		9BBF718522B311300009201C /* Employees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF718422B311300009201C /* Employees.swift */; };
+		9BBF718722B31A230009201C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF718622B31A230009201C /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +33,10 @@
 		9BA4D41A22B1B165001749B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BA4D42122B1B25F001749B6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		9BA4D42322B1B59F001749B6 /* student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
+		9BBF717E22B307860009201C /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		9BBF718122B307A30009201C /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		9BBF718422B311300009201C /* Employees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employees.swift; sourceTree = "<group>"; };
+		9BBF718622B31A230009201C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +69,31 @@
 		9BA4D41922B1B165001749B6 /* Collegesystem */ = {
 			isa = PBXGroup;
 			children = (
+				9BBF718322B311190009201C /* Faculty */,
+				9BBF718022B3078D0009201C /* protocols */,
 				9BA4D41A22B1B165001749B6 /* main.swift */,
 				9BA4D42122B1B25F001749B6 /* Person.swift */,
 				9BA4D42322B1B59F001749B6 /* student.swift */,
+				9BBF717E22B307860009201C /* Address.swift */,
 			);
 			path = Collegesystem;
+			sourceTree = "<group>";
+		};
+		9BBF718022B3078D0009201C /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF718122B307A30009201C /* Display.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		9BBF718322B311190009201C /* Faculty */ = {
+			isa = PBXGroup;
+			children = (
+				9BBF718422B311300009201C /* Employees.swift */,
+				9BBF718622B31A230009201C /* File.swift */,
+			);
+			path = Faculty;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBF718222B307A30009201C /* Display.swift in Sources */,
+				9BBF718522B311300009201C /* Employees.swift in Sources */,
+				9BBF718722B31A230009201C /* File.swift in Sources */,
 				9BA4D42222B1B25F001749B6 /* Person.swift in Sources */,
 				9BA4D41B22B1B165001749B6 /* main.swift in Sources */,
+				9BBF717F22B307860009201C /* Address.swift in Sources */,
 				9BA4D42422B1B59F001749B6 /* student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

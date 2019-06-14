@@ -37,4 +37,9 @@ class Student: Person
         print("init() of Student")
         //super.init()
     }
+    
+    override func display()
+    {
+        
+    }
 }
